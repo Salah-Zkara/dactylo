@@ -1,0 +1,164 @@
+body{
+
+}
+h1{
+    font-family: 'Baloo Paaji 2', cursive;
+    position: relative;
+    color: white;
+    top: 35%;
+}
+.heaa1{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0a1b2e;
+}
+.heaa2{
+    position: relative;
+    bottom: 22px;
+    width: 100%;
+    height: 20%;
+    background-color: #0a1b2e;
+}
+.cent{
+    position: relative;
+    background-color: white;
+    width: 100%;
+    height: 80%;
+    bottom: 22px;
+}
+.lef{
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    left: 0;
+    background-color: #3b9091;
+    overflow: hidden;
+}
+.rig{
+    position: absolute;
+    width: 20%;
+    height: 100%;
+    right: 0;
+    background-color: #3b9091;
+}
+.texbox{
+    position: absolute;
+    user-select: none;
+    height: 43%;
+    width: 36%;
+    top: 3%;
+    left: 35%;
+    background-color: #ececec;
+    overflow: auto;
+}
+.correct{
+    border: 9px solid yellowgreen;
+    position: absolute;
+    height: 40%;
+    width: 35%;
+    top: 53%;
+    left: 35%;
+    border-radius: 10px 10px 10px 10px;
+}
+.incorrect{
+    position: absolute;
+    border: 9px solid orangered;
+    height: 40%;
+    width: 35%;
+    top: 53%;
+    left: 35%;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.texinput{
+    position: absolute;
+    border: 9px solid gray;
+    height: 40%;
+    width: 35%;
+    top: 53%;
+    left: 35%;
+    border-radius: 10px 10px 10px 10px;
+}
+textarea {
+    width: 99%;
+    height: 98%;
+    background-color: white;
+    resize: none;  
+}
+
+.rest{
+    font-family: 'Baloo Paaji 2', cursive;
+    font-family: 'Comic Neue', cursive;
+    position: absolute;
+    height: 10%;
+    width: 75%;
+    bottom: 15%;
+    right: 10%;
+    border: 9px solid #e87427;
+    border-radius: 10px 10px 10px 10px;
+    background-color: white;
+    resize: none;
+    color: #e87427;
+    user-select: none;
+    vertical-align: middle;
+    overflow: hidden;
+}
+h2{
+    position: relative;
+    text-align: center;
+    bottom: 5px;
+}
+p{
+    padding: 20px;
+}
+
+.rest:hover{
+    color: white;
+    background-color: #e87427;
+}
+#leftex{
+    font-family: 'Baloo Paaji 2', cursive;
+    font-family: 'Comic Neue', cursive;
+    font-family: 'Gotu', sans-serif;
+    font-size: 22px;
+    color: white;
+    padding: 20px;
+}
+#teext{
+    font-family: 'Baloo Paaji 2', cursive;
+    font-size: 20px;
+}
+.timer{
+    font-family: 'Paprika', cursive;
+    display: flex;
+    justify-content: center;
+    font-size: 55px;
+    position: absolute;
+    width: 90%;
+    height: 20%;
+    top: 20%;
+    margin: 15px;
+    overflow: hidden;
+}
+
+.correctpara {
+    color: yellowgreen;
+  }
+  
+  .incorrectpara {
+    color: red;
+    text-decoration: underline;
+  }
+
+  .final{
+    border: 9px solid #3b9091;
+    position: absolute;
+    height: 40%;
+    width: 35%;
+    top: 53%;
+    left: 35%;
+    border-radius: 10px 10px 10px 10px;
+}
